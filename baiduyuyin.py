@@ -11,14 +11,10 @@ from playsound import playsound
 from time import sleep
 from configparser import ConfigParser
 
-#conf=ConfigParser()
-#conf.read('config.conf')
-#APP_ID = conf.get('speech_config','15818332')
-#API_KEY = conf.get('speech_config','jjkHj7p6pTiA6wYE9S3GRu2z')
-#SECRET_KEY = conf.get('speech_config','ZdZH3PPlpuR7ToR0850BylzYTXkhSt4z')
-APP_ID = '15818332'
-API_KEY = 'jjkHj7p6pTiA6wYE9S3GRu2z'
-SECRET_KEY = 'ZdZH3PPlpuR7ToR0850BylzYTXkhSt4z'
+
+APP_ID = '***'
+API_KEY = '****'
+SECRET_KEY = '****'
 client = AipSpeech(APP_ID, API_KEY, SECRET_KEY)
 CHUNK = 1024              #wav文件是由若干个CHUNK组成的，CHUNK我们就理解成数据包或者数据片段。1024
 FORMAT = paInt16          #这个参数后面写的paInt16表示我们使用量化位数 16位来进行录音。
@@ -130,14 +126,7 @@ def Tuling(t):
 
 
 
-'''if __name__ == '__main__':
-    ping()  # 检查网络连接
-    while(1):
-        LuYin()   #录制音频
-        a = baidu_speech_reco() #语音识别，返回文字结果
-        res=Tuling(a)   #姜结果发给图灵机器人
-        print(res)     #找到机器人的回答
-        baidu_voice(res)   #合成机器人的声音'''
+
 
 
 
