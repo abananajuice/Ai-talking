@@ -99,8 +99,7 @@ def baidu_voice(voice):    #语音合成
 
     #time.sleep(t)
     #os.system('taskkill /f /im PotPlayerMini64.exe')
-#baidu_voice('欢迎来到郑州轻工业大学ai人工智能实验室')
-#baidu_voice('张文豪正在测试 unknown')
+
 def Tuling(t):
     url="http://openapi.tuling123.com/openapi/api/v2"
     data={
