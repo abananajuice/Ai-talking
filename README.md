@@ -1,6 +1,7 @@
 # Ai-talking
+
 图灵机器人语音聊天软件 
-我的一个python练习项目。通过调用百度语音和图灵机器人的API，来实现与图灵机器人的语音聊天。同时制作了借助PYQT5制作了简单的UI界面。
+以[@niehen](https://github.com/niehen6174)的百度语音识别代码为基础，通过调用百度语音和图灵机器人的API，j来实现与图灵机器人的语音聊天。同时制作了借助PYQT5制作了简单的UI界面。
 
 python版本：python3.6.5
 
@@ -19,3 +20,5 @@ python版本：python3.6.5
 
 * 打开**talk_main.py**文件运行即可
 
+-------
+**感谢[@niehen](https://github.com/niehen6174)提供的源码和帮助**
