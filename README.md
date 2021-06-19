@@ -21,4 +21,4 @@ python版本：python3.6.5
 * 打开**talk_main.py**文件运行即可
 
 -------
-**感谢[@niehen](https://github.com/niehen6174)提供的源码和帮助**
+**本代码基于[@niehen](https://github.com/niehen6174)的代码改进而成，仅供交流**
